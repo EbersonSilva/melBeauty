@@ -31,8 +31,9 @@ export const Header: React.FC = () => {
         }`}>
           <Link href="/" className="hover:text-gray-400">Home</Link>
           <Link href="#about" className="hover:text-gray-400">Sobre</Link>
-          <Link href="/services" className="hover:text-gray-400">Serviços</Link>
-          <Link href="/gallery" className="hover:text-gray-400">Galeria</Link>
+          <Link href="#services" className="hover:text-gray-400">Serviços</Link>
+          <Link href="#testimonials" className="hover:text-gray-400">Depoimentos</Link>
+          <Link href="#gallery" className="hover:text-gray-400">Galeria</Link>
           <Link href="/contact" className="hover:text-gray-400 pb-0 md:pb-0 last:pb-4 md:last:pb-0">Contato</Link>
         </nav>
       </div>

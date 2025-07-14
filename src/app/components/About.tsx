@@ -3,7 +3,7 @@ import Image from "next/image"
 export const About = () => {
   return (
     <section id="about" className="py-24 bg-gray-50 h-screen ">
-      <div className="max-w-7xl mx-auto text-center">
+      <div className="max-w-7xl mx-auto text-center mt-20">
         <h2 className="text-5xl font-bold text-black">Quem Sou Eu</h2>
         <div className="flex justify-center mt-8">
           <Image src="/images/eu.jpeg" width={100} height={100} alt="Sua Foto" className="rounded-full w-60 h-60 object-cover" />

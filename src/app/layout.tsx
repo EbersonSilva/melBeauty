@@ -6,6 +6,7 @@ import { Testimonials } from "./components/Testimonials";
 import { Services } from "./components/Services";
 import { About } from "./components/About";
 import { WhatsappButton } from "./components/WhatsappLogo";
+import { Gallery } from "../components/Gallery";
 
 export const metadata: Metadata = {
   title: "Create Next App",
@@ -25,6 +26,7 @@ export default function RootLayout({
         <About />
         <Services />
         <Testimonials />
+        <Gallery/>
         <WhatsappButton />
         <Footer />
 
