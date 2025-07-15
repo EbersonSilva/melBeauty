@@ -7,6 +7,7 @@ import { Services } from "./components/Services";
 import { About } from "./components/About";
 import { WhatsappButton } from "./components/WhatsappButton";
 import { Gallery } from "./components/Gallery";
+import { FAQ } from "./components/FAQ";
 
 
 
@@ -30,6 +31,7 @@ export default function RootLayout({
         <Testimonials />
         <Gallery/>
         <WhatsappButton />
+        <FAQ />
         <Footer />
 
       </body>

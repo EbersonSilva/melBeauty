@@ -4,7 +4,7 @@ import { FaInstagram, FaWhatsapp } from 'react-icons/fa';
 
 export const Footer = () => {
     return (
-        <footer id='contact' className="bg-gray-100 text-black py-20">
+        <footer id='contact' className="bg-gray-300 text-black py-20">
             <div className="max-w-7xl mx-auto text-center">
                 <div className="mb-6">
                     <h3 className="text-4xl font-semibold">Entre em Contato</h3>

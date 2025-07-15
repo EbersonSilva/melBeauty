@@ -4,13 +4,13 @@
   "private": true,
   "scripts": {
     "dev": "next dev --turbopack",
+    "export": "next build && next export",
     "build": "next build",
     "start": "next start",
     "lint": "next lint"
   },
   "dependencies": {
     "@phosphor-icons/react": "^2.1.7",
-    "fslightbox-react": "^1.8.0",
     "next": "15.1.7",
     "react": "^19.0.0",
     "react-dom": "^19.0.0",
@@ -20,7 +20,6 @@
   },
   "devDependencies": {
     "@eslint/eslintrc": "^3",
-    "@types/fslightbox-react": "^1.8.0",
     "@types/node": "^20",
     "@types/react": "^19.1.8",
     "@types/react-dom": "^19",
