@@ -4,6 +4,7 @@ import React, { useState } from 'react';
 import Link from 'next/link';
 import { List, X } from '@phosphor-icons/react';
 import Image from 'next/image';
+import { CTA } from './CTA';
 
 export const Header: React.FC = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -34,7 +35,7 @@ export const Header: React.FC = () => {
           <Link href="#services" className="hover:text-gray-400">Serviços</Link>
           <Link href="#testimonials" className="hover:text-gray-400">Depoimentos</Link>
           <Link href="#gallery" className="hover:text-gray-400">Galeria</Link>
-          <Link href="/contact" className="hover:text-gray-400 pb-0 md:pb-0 last:pb-4 md:last:pb-0">Contato</Link>
+          <Link href="#contact" className="hover:text-gray-400 pb-0 md:pb-0 last:pb-4 md:last:pb-0">Contato</Link>
         </nav>
       </div>
     </header>

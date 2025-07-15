@@ -1,46 +1,63 @@
 'use client';
 
-import { Swiper, SwiperSlide } from 'swiper/react';
-import 'swiper/css';
-import 'swiper/css/navigation';
-import 'swiper/css/pagination';
+import { useState } from 'react';
+import Lightbox from 'yet-another-react-lightbox';
+import Zoom from 'yet-another-react-lightbox/plugins/zoom';
 import Image from 'next/image';
-import { Navigation, Pagination } from 'swiper/modules';
+
+import 'yet-another-react-lightbox/styles.css';
+// import 'yet-another-react-lightbox/plugins/zoom.css';
+
 
 export const Gallery = () => {
   const images = [
-    { src: '/images/eu.jpg', alt: 'Maquiagem para evento', description: 'Transformação para um casamento especial.' },
-    { src: '/images/eu.jpg', alt: 'Extensão de cílios', description: 'Cílios volumosos com técnica de volume russo.' },
-    { src: '/images/eu.jpg', alt: 'Maquiagem artística', description: 'Maquiagem criativa para sessão de fotos.' },
-    { src: '/images/eu.jpg', alt: 'Maquiagem casual', description: 'Look casual para o dia a dia.' },
-    { src: '/images/eu.jpg', alt: 'Cílios volumosos', description: 'Alongamento de cílios com acabamento natural.' },
+    { src: '/images/eu.jpg', alt: 'Make 1' },
+    { src: '/images/eu.jpg', alt: 'Make 2' },
+    { src: '/images/eu.jpg', alt: 'Make 3' },
+    { src: '/images/eu.jpg', alt: 'Make 4' },
+    { src: '/images/eu.jpg', alt: 'Make 5' },
+    { src: '/images/eu.jpg', alt: 'Make 5' },
+
   ];
 
+  const [index, setIndex] = useState(-1);
+
   return (
-    <section id="gallery" className="py-20 bg-gray-50">
-      <div className="max-w-7xl mx-auto text-center">
-        <h2 className="text-4xl font-bold text-pink-600 mb-10">Galeria de Projetos</h2>
-        <Swiper
-          modules={[Navigation, Pagination]}
-          spaceBetween={30}
-          slidesPerView={1}
-          navigation
-          pagination={{ clickable: true }}
-          className="max-w-4xl mx-auto"
-        >
-          {images.map((image, index) => (
-            <SwiperSlide key={index}>
+    <section className="py-20 bg-gray-300" id="gallery">
+      <div className="max-w-6xl mx-auto px-4 text-center mt-20">
+        <h2 className="text-5xl font-bold text-gray-900 mb-10">Galeria</h2>
+
+        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6">
+          {images.map((img, i) => (
+            <button
+              key={i}
+              onClick={() => setIndex(i)}
+              className="focus:outline-none"
+            >
               <Image
-                src={image.src}
-                alt={image.alt}
-                width={800}
-                height={500}
-                className="rounded-lg shadow-lg object-cover"
+                src={img.src}
+                alt={img.alt}
+                width={500}
+                height={300}
+                className="rounded-lg object-cover w-full h-64 hover:scale-105 transition-transform duration-300"
               />
-              <p className="mt-4 text-lg text-gray-700">{image.description}</p>
-            </SwiperSlide>
+            </button>
           ))}
-        </Swiper>
+        </div>
+
+        <Lightbox
+          open={index >= 0}
+          close={() => setIndex(-1)}
+          index={index}
+          slides={images.map((img) => ({ src: img.src }))}
+          plugins={[Zoom]}
+           zoom={{
+    maxZoomPixelRatio: 3, // aumenta a capacidade de zoom
+    scrollToZoom: true,    // ativa zoom com scroll no desktop
+    doubleTapDelay: 300,   // ativa zoom por clique rápido duplo
+    zoomInMultiplier: 2,   // controle de zoom nos botões
+  }}
+        />
       </div>
     </section>
   );

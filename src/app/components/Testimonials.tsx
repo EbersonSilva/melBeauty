@@ -68,7 +68,7 @@ export const Testimonials = () => (
         className="mySwiper w-full"
       >
         {testimonials.map((t, i) => (
-          <SwiperSlide key={i} className="bg-gray-300 text-base p-16 rounded-lg shadow-md max-w-xs mx-auto">
+          <SwiperSlide key={i} className="bg-gray-300 text-base p-12 rounded-lg shadow-md max-w-xs mx-auto">
             <p className="text-gray-600 italic text-lg mb-4">&quot;{t.text}&quot;</p>
             <Image
               src={t.img}

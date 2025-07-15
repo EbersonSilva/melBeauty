@@ -6,7 +6,7 @@ export const CTA = () => {
          mt-2 py-3 px-6 rounded-lg shadow-lg
          transition hover:shadow-xl
          focus:outline-none focus:ring-4 focus:ring-gray-300'>
-                Agendar horário no WhatsApp
+                Agendar horário
             </a>
         </div>
     );

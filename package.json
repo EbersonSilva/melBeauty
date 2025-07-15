@@ -10,15 +10,19 @@
   },
   "dependencies": {
     "@phosphor-icons/react": "^2.1.7",
+    "fslightbox-react": "^1.8.0",
     "next": "15.1.7",
     "react": "^19.0.0",
     "react-dom": "^19.0.0",
-    "swiper": "^11.2.10"
+    "react-icons": "^5.5.0",
+    "swiper": "^11.2.10",
+    "yet-another-react-lightbox": "^3.24.0"
   },
   "devDependencies": {
     "@eslint/eslintrc": "^3",
+    "@types/fslightbox-react": "^1.8.0",
     "@types/node": "^20",
-    "@types/react": "^19",
+    "@types/react": "^19.1.8",
     "@types/react-dom": "^19",
     "eslint": "^9",
     "eslint-config-next": "15.1.7",

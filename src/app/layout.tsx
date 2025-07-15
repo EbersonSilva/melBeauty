@@ -5,7 +5,7 @@ import { Footer } from "./components/Footer";
 import { Testimonials } from "./components/Testimonials";
 import { Services } from "./components/Services";
 import { About } from "./components/About";
-import { WhatsappButton } from "./components/WhatsappLogo";
+import { WhatsappButton } from "./components/WhatsappButton";
 import { Gallery } from "./components/Gallery";
 
 
