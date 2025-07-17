@@ -9,6 +9,12 @@ import 'swiper/css/effect-coverflow';
 import 'swiper/css/pagination';
 
 const testimonials = [
+   {
+    text: 'Mel, foi um prezer conhecer você, de verdade! Você é uma maquiadora incrível, eu fiquei muito surpresa com o resultado da minha make e você conseguiu respeitar alguns pontos que tinhamos conversado e em nunhum momento tentou impor nada, eu achei isso maravilhoso, além disso minha mãe e a minha avó adoraram você ksksks. Sucesso.',
+    name: 'Daniela',
+    role: 'Cliente - Make para eventos',
+    img: '/images/eu.jpg',
+  },
   {
     text: 'ela é maravilhosa, me deixou super confortável desde o primeiro dia, conversa comigo sobre tudo e o trabalho sem palavras, perfeito, fiz uma e não consigo trocar, o trabalho da Melissa vicia, adoro❤',
     name: 'Annila Oliveira',
@@ -39,12 +45,7 @@ const testimonials = [
     role: 'Cliente - Extensão de Cílios e Maquiagem',
     img: '/images/eu.jpg',
   },
-  // {
-  //   text: 'Mel, foi um prezer conhecer você, de verdade! Você é uma maquiadora incrível, eu fiquei muito surpresa com o resultado da minha make e você conseguiu respeitar alguns pontos que tinhamos conversado e em nunhum momento tentou impor nada, eu achei isso maravilhoso, além disso minha mãe e a minha avó adoraram você ksksks. Sucesso.',
-  //   name: 'Daniela',
-  //   role: 'Cliente - Make para eventos',
-  //   img: '/images/eu.jpg',
-  // },
+ 
 ];
 
 export const Testimonials = () => (
