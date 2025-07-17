@@ -81,6 +81,16 @@ export const Gallery = () => {
             zoomInMultiplier: 2, // controle de zoom nos botões
           }}
         />
+        <div className="mt-6">
+  <a
+    href="https://www.instagram.com/sua_conta" // substitua pelo link real
+    target="_blank"
+    rel="noopener noreferrer"
+    className="inline-block text-gray-600 hover:text-gray-800 font-bold text-lg md:text-2xl transition"
+  >
+    Continue vendo pelo Instagram →
+  </a>
+</div>
       </div>
     </section>
   );

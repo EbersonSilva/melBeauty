@@ -39,12 +39,12 @@ const testimonials = [
     role: 'Cliente - Extensão de Cílios e Maquiagem',
     img: '/images/eu.jpg',
   },
-  {
-    text: 'Mel, foi um prezer conhecer você, de verdade! Você é uma maquiadora incrível, eu fiquei muito surpresa com o resultado da minha make e você conseguiu respeitar alguns pontos que tinhamos conversado e em nunhum momento tentou impor nada, eu achei isso maravilhoso, além disso minha mãe e a minha avó adoraram você ksksks. Sucesso.',
-    name: 'Daniela',
-    role: 'Cliente - Make para eventos',
-    img: '/images/eu.jpg',
-  },
+  // {
+  //   text: 'Mel, foi um prezer conhecer você, de verdade! Você é uma maquiadora incrível, eu fiquei muito surpresa com o resultado da minha make e você conseguiu respeitar alguns pontos que tinhamos conversado e em nunhum momento tentou impor nada, eu achei isso maravilhoso, além disso minha mãe e a minha avó adoraram você ksksks. Sucesso.',
+  //   name: 'Daniela',
+  //   role: 'Cliente - Make para eventos',
+  //   img: '/images/eu.jpg',
+  // },
 ];
 
 export const Testimonials = () => (
