@@ -2,9 +2,11 @@ import type { NextConfig } from "next";
 
 const nextConfig: NextConfig = {
   output: "export",
-  images:{
+  trailingSlash: true,
+  basePath: "/melBeauty",
+  images: {
     unoptimized: true,
-  }
+  },
 };
 
 export default nextConfig;

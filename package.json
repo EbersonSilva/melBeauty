@@ -4,10 +4,10 @@
   "private": true,
   "scripts": {
     "dev": "next dev --turbopack",
-    "export": "next export",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "deploy": "npm run build && cd out && git init && git remote add origin https://github.com/ebersonsilva/melBeauty.git && git checkout -b gh-pages && git add . && git commit -m 'Atualização' && git push -f origin gh-pages && cd .."
   },
   "dependencies": {
     "@phosphor-icons/react": "^2.1.7",
