@@ -83,7 +83,7 @@ export const Gallery = () => {
         />
         <div className="mt-6">
   <a
-    href="https://www.instagram.com/sua_conta" // substitua pelo link real
+    href="https://www.instagram.com/meel_makeeup/"
     target="_blank"
     rel="noopener noreferrer"
     className="inline-block text-gray-600 hover:text-gray-800 font-bold text-lg md:text-2xl transition"

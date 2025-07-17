@@ -1,36 +1,63 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
-## Getting Started
+# 💄 MelBeauty - Landing Page Profissional
 
-First, run the development server:
+Este é um projeto de landing page desenvolvido para o **Studio Melissa Gomes - Beauty Studio**, com o objetivo de apresentar serviços de maquiagem, extensão de cílios e design de sobrancelhas de forma moderna, elegante e responsiva.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## ✨ Funcionalidades
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+- Navegação com menu responsivo (hambúrguer em telas pequenas)
+- Sessões animadas e visualmente atraentes (Serviços, Galeria, Depoimentos, Contato etc.)
+- Galeria com **Lightbox** e **Zoom**
+- Carrossel de depoimentos com **Swiper.js**
+- Estilo limpo e otimizado para dispositivos móveis
+- Imagens otimizadas com `next/image`
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## 🛠️ Tecnologias e Ferramentas Utilizadas
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+- **Next.js 14** – Framework React para renderização otimizada e exportação estática (`output: "export"`)
+- **React 18** – Biblioteca base para componentes interativos
+- **Tailwind CSS** – Utilizado para estilização rápida e responsiva
+- **TypeScript** – Tipagem estática para maior segurança no desenvolvimento
+- **Swiper.js** – Biblioteca para o carrossel de depoimentos
+- **Yet-Another-React-Lightbox** – Lightbox moderno com suporte a zoom
+- **Google Fonts** – Para tipografias refinadas
 
-## Learn More
+## 🚀 Como Rodar o Projeto Localmente
 
-To learn more about Next.js, take a look at the following resources:
+1. **Clone este repositório:**
+   ```bash
+   git clone https://github.com/seu-usuario/nome-do-repositorio.git
+   cd nome-do-repositorio
+   ```
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+2. **Instale as dependências:**
+   ```bash
+   npm install
+   ```
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+3. **Rode o projeto em modo desenvolvimento:**
+   ```bash
+   npm run dev
+   ```
 
-## Deploy on Vercel
+4. **Acesse no navegador:**
+   ```
+   http://localhost:3000
+   ```
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## 📦 Como Gerar a Versão para Produção (Export Static)
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+1. **Build do projeto:**
+   ```bash
+   npm run build
+   ```
+
+2. O conteúdo final estará na pasta `out/`, pronto para ser hospedado no GitHub Pages, Vercel, Netlify, etc.
+
+## 📷 Créditos das Imagens
+
+Todas as imagens utilizadas são de autoria da profissional Melissa Gomes e estão armazenadas localmente no projeto (`/public/images`).
+
+---
+
+Desenvolvido com 💖 por Eberson Silva.
