@@ -28,7 +28,7 @@ export const WhatsappButton: React.FC = () => {
 
   return showButton ? (
     <Link
-      href="https://wa.me/5511961505256"
+      href="https://wa.me/5511961505256?text=Ol%C3%A1!%20Gostaria%20de%20agendar%20maquiagem%20ou%20extens%C3%A3o%20de%20c%C3%ADlios."
       target="_blank"
       className="fixed bottom-5 right-5 bg-green-500 hover:bg-green-600 text-white p-4 rounded-full shadow-lg z-50 transition duration-300 border-2 border-white"
     >

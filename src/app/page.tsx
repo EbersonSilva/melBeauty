@@ -14,12 +14,7 @@ export default function Home() {
               width={900}
               height={250}
             />
-            {/* <h1 className="text-5xl font-bold mb-4">
-              Realce sua beleza com Profissionalismo
-            </h1>
-            <p className="text-2xl">
-              Maquiagem para todas as ocasiões
-            </p> */}
+            
             
           </div>
       </section>

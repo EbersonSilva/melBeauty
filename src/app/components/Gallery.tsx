@@ -24,7 +24,7 @@ export const Gallery = () => {
 
   return (
     <section className="py-20 bg-gray-300" id="gallery">
-      <div className="max-w-6xl mx-auto px-4 text-center mt-20">
+      <div className="max-w-6xl mx-auto px-4 text-center mt-0 md:mt-20">
         <h2 className="text-5xl font-bold text-gray-900 mb-10">Galeria</h2>
 
         <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6">

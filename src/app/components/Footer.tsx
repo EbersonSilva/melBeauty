@@ -7,7 +7,7 @@ export const Footer = () => {
         <footer id='contact' className="bg-gray-300 text-black py-20">
             <div className="max-w-7xl mx-auto text-center">
                 <div className="mb-6">
-                    <h3 className="text-4xl font-semibold">Entre em Contato</h3>
+                    <h3 className="text-3xl md:text-4xl font-semibold">Entre em Contato</h3>
                     <p className="text-lg mt-2">Agende seu horário ou tire suas dúvidas!</p>
                 </div>
 
