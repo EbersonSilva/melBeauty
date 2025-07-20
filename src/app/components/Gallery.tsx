@@ -11,32 +11,32 @@ import "yet-another-react-lightbox/styles.css";
 export const Gallery = () => {
   const images = [
     {
-      src: "/images/trabalhos/make (1).jpeg",
+      src: "/images/trabalhos/make_1.jpeg",
       alt: "Make 1",
       description: "Volume brasileiro.",
     },
     {
-      src: "/images/trabalhos/make (2).jpeg",
+      src: "/images/trabalhos/make_2.jpeg",
       alt: "Make 2",
       description: "Maquiagem noiva.",
     },
     {
-      src: "/images/trabalhos/make (3).jpeg",
+      src: "/images/trabalhos/make3.jpeg",
       alt: "Make 3",
       description: "Design com Henna.",
     },
     {
-      src: "/images/trabalhos/make (4).jpeg",
+      src: "/images/trabalhos/make_4.jpeg",
       alt: "Make 4",
       description: "Volume fox eyes.",
     },
     {
-      src: "/images/trabalhos/make (5).jpeg",
+      src: "/images/trabalhos/make_5.jpeg",
       alt: "Make 5",
       description: "Maquiagem para debutante.",
     },
     {
-      src: "/images/trabalhos/make (6).jpeg",
+      src: "/images/trabalhos/make_6.jpeg",
       alt: "Make 6",
       description: "Maquigem social.",
     },

@@ -35,7 +35,7 @@ export const Footer = () => {
     <FaFacebook />
   </Link> */}
           <Link
-            href="https://wa.me/5511961505256"
+            href="https://wa.me/5511961505256?text=Ol%C3%A1!%20Gostaria%20de%20agendar%20maquiagem%20ou%20extens%C3%A3o%20de%20c%C3%ADlios."
             target="_blank"
             rel="noopener noreferrer"
             className="hover:text-gray-500 transition-colors"
@@ -47,9 +47,9 @@ export const Footer = () => {
         {/* Direitos Autorais */}
         <div className="mt-6">
           <p className="text-sm text-gray-800">
-            &copy; {new Date().getFullYear()} Melissa Gomes. Todos os direitos
-            reservados.
+         Todos os direitos reservados.
           </p>
+          <p className="text-sm text-gray-600">&copy; {new Date().getFullYear()} Desenvolvido por <strong>Eberson Silva</strong></p>
         </div>
       </div>
     </footer>
